@@ -12,11 +12,6 @@
   display: none;
 }
 
-.feed {
-  -ms-overflow-style: none; /* Hide scrollbar (IE/Edge) */
-  scrollbar-width: none; /* Hide scrollbar (Firefox) */
-}
-
 .feed__header {
   position: sticky;
   top: 0;
