@@ -18,8 +18,9 @@ function Post({ displayName, username, verified, text, image, avatar }) {
           <div className="post__headerText">
             <h3>
               John Doe{" "}
-              <span>
+              <span className="post__headerSpecial">
                 <VerifiedUserIcon className="post__badge" />
+                @jdoe
               </span>
             </h3>
           </div>
@@ -28,9 +29,15 @@ function Post({ displayName, username, verified, text, image, avatar }) {
           </div>
         </div>
         <img
-          src="https://media2.giphy.com/media/QcIhKTnPVZu48/giphy.gif?cid=ecf05e472js32ewnnzvj68ebp99no2390xhjs3zarl61987d&rid=giphy.gif"
+          src="https://media2.giphy.com/media/QcIhKTnPVZu48/giphy.gif"
           alt="otter gif"
         />
+        <div className="post__footer">
+          <ChatBubbleOutlineIcon fontSize="small" />
+          <RepeatIcon fontSize="small" />
+          <FavoriteBorderIcon fontSize="small" />
+          <PublishIcon fontSize="small" />
+        </div>
       </div>
     </div>
   );
