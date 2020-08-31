@@ -1,5 +1,10 @@
 Tweets.cc
 
+* https://tweets.cc
+* Serverless Twitter 
+* React + Firebase
+* Feed uses react-flip-move animation library
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
