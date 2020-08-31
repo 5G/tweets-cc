@@ -4,6 +4,7 @@ Tweets.cc
 * Serverless Twitter 
 * React + Firebase
 * Feed uses react-flip-move animation library
+* Deployed via Heroku so it may take 30 secs for the dyno to spin up
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
